@@ -11,13 +11,13 @@
       "program": "${workspaceFolder}/server/bin/www"
     },
     {
-          "type": "node",
-          "request": "attach",
-          "name": "nodemon",
-          "processId": "${command:PickProcess}",
-          "restart": true,
-          "protocol": "inspector"
-      },
+        "type": "node",
+        "request": "attach",
+        "name": "nodemon",
+        "processId": "${command:PickProcess}",
+        "restart": true,
+        "protocol": "inspector"
+    },
     {
       "type": "node",
       "request": "launch",
